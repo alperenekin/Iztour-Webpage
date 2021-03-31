@@ -1,0 +1,182 @@
+/* --------------LAYOUT PART-------------------*/
+#container {
+            margin: 0 auto;
+            width:  2300px;
+        }
+body {background-image:url('background.jpg');
+background-size: cover;
+background-repeat: no-repeat; 
+background-color: white; 
+letter-spacing: 1px;
+word-spacing: 4px;
+font-family: Arial, Helvetica, sans-serif ;
+font-size:30px;
+	}
+#pics {padding: 10px;
+margin:0px;
+	}
+#header{margin:10px;
+height:90px; 
+width:2250px;
+	}
+#header img {
+   height:310%;
+   width:350px;	
+}
+
+.main{
+background-image:url('background.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+padding:20px; 
+margin-right:500px;
+margin-left:500px;
+margin-top:300px; 
+background-color:#f2f2f2;
+border-radius:5px; 
+border-left:groove #f2f2f2; border-right:groove #f2f2f2; border-top:groove #f2f2f2;
+color: white;
+}
+address {text-align:center; 
+font: normal small-caps 0.8em sans-serif; 
+border-top: 0.5em double green; 
+padding-top: 1em
+	}
+
+.sideright{ 
+margin-right:10px; margin-left:10px; margin-bottom:10px; margin-top:130px; 
+border-radius:5px; 
+padding:20px; 
+float:right; 
+width:440px; 
+clear:right
+	}
+.sideleft{
+margin-right:10px; margin-left:10px; margin-bottom:10px; margin-top:300px; 
+border-radius:5px; 
+padding:20px; 
+float:left; 
+width:440px; 
+clear:left;
+	}
+.pics{padding:10px 10px 10px 90px ; 
+background-color:#f2f2f2;border-radius:5px; 
+opacity: 1.0;
+margin-left:20px;
+	}
+.pics:hover{opacity:0.3;}
+
+
+/*---------------------MENU BAR *----------------------------------------------------------------*/
+#button{
+	margin-top:200px; 
+ background-color:#f2f2f2;
+ margin-left:500px;
+ font-family:Arial; 
+ height:40px; 
+ width:1280px; border:groove;
+	}
+ul{margin:0px; 
+padding:0px; 
+list-style:none; 
+	}
+ul li{float:left;
+width:250px; 
+height:40px; 
+background-color:#f2f2f2; 
+opacity:1; 
+line-height: 40px;
+text-align:center; 
+font-size:25px;
+	}
+ul li a {text-decoraiton:none; 
+color:green; 
+display:block; 
+	}
+ul li a:hover {background-color:#f2f2f2;
+opacity:0.2;
+	}
+ul li ul li{display:none;}
+ul li:hover ul li {display:block}
+
+
+
+/*--------------------------------------OTHERS-------------------------*/
+h1{ color:white ; 
+font-size:200%; 
+text-align:Center;
+	}
+
+h2{ color:white ; 
+font-size:150%; 
+text-align:left;
+	}
+#title{background-color:#008000;
+width:1250px;
+height:50px;
+
+}
+#commentbox{
+	width: 1000px;
+	padding: 35px;
+	margin-bottom: 20px;
+	background-color:#b8b894;
+	border-radius:5px;
+	line-height: 1.7;
+    word-wrap:break-word;
+}
+-----------------------------------------------------------LOG IN-----------------------------------
+.login form{
+
+}
+.login form input{
+width: 400px;
+height: 75px;
+padding: 20px;
+background-color:#f2f2f2;
+border-left:groove #f2f2f2; border-right:groove #f2f2f2;
+font-family:arial;
+font-size:35px;
+line-height:30px;
+}
+.login form button{
+	
+width: 400px;
+height: 75px;
+padding:20px;
+background-color:#f2f2f2;
+font-family:arial;
+font-size:35px;
+line-height:30px;
+cursor:pointer;
+border:groove #f2f2f2;
+color:black;
+}
+.login a {
+display:block;
+max-width:370px;
+min-width:370px;
+height: 50px;
+padding:10px;
+background-color:#f2f2f2;
+font-family:arial;
+font-size:35px;
+border-left:groove #f2f2f2; border-right:groove #f2f2f2;border-bottom:groove #f2f2f2;
+text-align:center;
+line-height:30px;
+cursor:pointer;
+}
+textarea {width:800px;
+height: 150px;
+background-color: #fff
+resize:none;
+font-size:40;
+}
+button{
+	width: 250px;
+	height: 50px;
+	font-size:40;
+	background-color:#008000;
+	color:white;
+	cursor:pointer;
+}
